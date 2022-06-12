@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_PhieuMuon"
+            android:icon="@drawable/ic_menu_phieumuon"
+            android:title="@string/menu_quanliphieumuon" />
+        <item
+            android:id="@+id/nav_LoaiSach"
+            android:icon="@drawable/ic_menu_loaisach"
+            android:title="@string/menu_quanliloaisach" />
+        <item
+            android:id="@+id/nav_Sach"
+            android:icon="@drawable/ic_menu_sach"
+            android:title="@string/menu_quanlisach" />
+        <item
+            android:id="@+id/nav_ThanhVien"
+            android:icon="@drawable/ic_menu_thanhvien"
+            android:title="@string/menu_quanlithanhvien" />
+
+        <item android:title="Thống kê">
+            <menu>
+                <item
+                    android:id="@+id/sub_Top"
+                    android:icon="@drawable/ic_menu_top10"
+                    android:title="@string/menu_thongketop10" />
+                <item
+                    android:id="@+id/sub_DoanhThu"
+                    android:icon="@drawable/ic_menu_doanhthu"
+                    android:title="@string/menu_thongkedoanhthu" />
+            </menu>
+        </item>
+        <item android:title="Người dùng">
+            <menu>
+
+                <item
+                    android:id="@+id/sub_addUser"
+                    android:visible="false"
+                    android:icon="@drawable/ic_menu_add"
+                    android:title="@string/menu_themmoi" />
+                <item
+                    android:id="@+id/sub_Pass"
+                    android:icon="@drawable/ic_menu_doimatkhau"
+                    android:title="@string/menu_doimatkhau" />
+                <item
+                    android:id="@+id/sub_LogOut"
+                    android:icon="@drawable/ic_menu_dangxuat"
+                    android:title="@string/menu_dangxuat" />
+            </menu>
+        </item>
+
+
+
+    </group>
+</menu>

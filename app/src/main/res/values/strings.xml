@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">PN_Lib</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">Welcome Admin</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_quanliphieumuon">Quản lí phiếu mượn</string>
+    <string name="menu_quanliloaisach">Quản lí loại sách</string>
+    <string name="menu_quanlisach">Quản lí sách</string>
+    <string name="menu_quanlithanhvien">Quản lí thành viên</string>
+    <string name="menu_thongketop10">10 Sách mượn nhiều nhất</string>
+    <string name="menu_thongkedoanhthu">Doanh thu</string>
+    <string name="menu_themmoi">Tạo tài khoản</string>
+    <string name="menu_doimatkhau">Đổi mật khẩu</string>
+    <string name="menu_dangxuat">Đăng xuất</string>
+</resources>
